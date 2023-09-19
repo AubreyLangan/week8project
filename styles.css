@@ -1,0 +1,43 @@
+.design {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, .5);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(202, 204, 204);
+}
+
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul > li {
+    font-weight: bold;
+}

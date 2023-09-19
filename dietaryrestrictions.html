@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Restrictions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <H1>Please Provide Your Dietary Restrictions</H1>
+    <main>
+        <div>
+            <a href="home.html">Home /</a>
+            <a href="contact.html">Contact Us! /</a>
+            <a href="dietaryrestrictions.html">Dietary Restrictions</a>
+            <a href="food.html">Menu Info /</a>
+            <a href="registry.html">Registry Info /</a>
+        </div>
+        <img class="design" src="images/diet restrictions banner.jpg"><br>
+    <h2>Please Provide Your Dietary Restrictions Below</h2>  
+    <form action="submit_dietary_restrictions.php" method="post">
+        <label for="name"> Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="Restrictions">Dietary Restrictions:</label>
+        <select id="Restrictions" name="Restrictions">
+            <option value="none">None</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="gluten_free">Gluten-Free</option>
+            <option value="nut_free">Nut-Free</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="other_restrictions">Other Dietary Restrictions (if applicable):</label>
+        <textarea id="other_restrictions" name="other_restrictions" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </main>
+</body>
+</html>
